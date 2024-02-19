@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.urvish {
+  background-color: #212121;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.urvish > p {
+  font-size: 3rem;
+}
+.urvish > a {
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.urvish > a:hover {
+  background-color: #fff;
+  color: #212121;
+}
